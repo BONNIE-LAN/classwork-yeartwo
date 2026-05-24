@@ -1,0 +1,5 @@
+str1=input().strip()
+str2=input().strip()
+common_chars=set(str1) & set(str2)
+result=''.join(sorted(common_chars))
+print(result)

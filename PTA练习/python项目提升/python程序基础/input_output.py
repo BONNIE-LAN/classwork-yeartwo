@@ -1,0 +1,6 @@
+a,b,c,d=input().split()
+a=float(a)
+b=int(b)
+c=str(c)
+d=float(d)
+print(c,b,"{:.2f} {:.2f}".format(a,d))
